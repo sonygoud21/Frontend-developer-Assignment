@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suppliers List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="styles.css">
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Platform</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">Key features</a></li>
+                                <li><a href="#">Empathetic AI</a></li>
+                                <li><a href="#">Platform Modules</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    </li>
+                    <li><a href="#">Products</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">AI Virtual Avatar</a></li>
+                                <li><a href="#">Metaverse</a></li>
+                                <li><a href="#">AI Virtual Store</a></li>
+                                <li><a href="#">AI Chatbot</a></li>
+                                <li><a href="#">AI Micro Branch</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Resources</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="#">WhitePapers</a></li>
+                                <li><a href="#">Press</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">About Us</a>
+                    </li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-select">
+                <select name="eng" id="Lang">
+                    <option value="English"> English</option>
+                    <option value="Hindi"> Hindi</option>
+                    <option value="Kannada">Kannada</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="French"> French</option>
+                </select>
+
+                <br>
+            </div>
+            <div class="nav-address">
+                <button class="main-btn" type="Sign-in">Sign-in</button>
+            </div>
+        </div>
+    </header>
+    <div class="hero-section"></div>
+    <!-- Filter Options -->
+    <div class="container">
+        <div class="label">
+            <div class="container1">
+                <label for="category">Category:</label>
+                <select id="category"></select><br>
+
+                <label for="channel">Channel:</label>
+                <select id="channel"></select><br>
+
+                <label for="state">State:</label>
+                <select id="state"></select><br>
+
+                <label for="district">District:</label>
+                <select id="district"></select><br>
+                <div class="btn-container">
+                    <button onclick="applyFilters()">Apply Filters</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Supplier Cards -->
+    <div class="suppliers-card">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2> AI PRODUCTS | Start your journey</h2>
+                <div class="box-img" style="background-image:url('h2-img.jpg');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>24/7 Customer service</h2>
+                <div class="box-img" style="background-image:url('h3-img.jpg');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>AI Micro Branch</h2>
+                <div class="box-img" style="background-image:url('h4-img.jpg');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>AI Chatbot</h2>
+                <div class="box-img" style="background-image:url('nh1-imh.avif');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>AI Virtual store</h2>
+                <div class="box-img" style="background-image:url('nh2-img.avif');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Metaverse</h2>
+                <div class="box-img" style="background-image:url('nh5.avif');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2> Virtual Avatars</h2>
+                <div class="box-img" style="background-image:url('1-img.webp');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2> Smart Kiosks</h2>
+                <div class="box-img" style="background-image:url('va1-img.webp');"></div>
+                <p style="color:rgb(80, 49, 236)">See more</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="fcontainer">
+        <div class="f-content"></div>
+        <h2>Sectors </h2>
+        <div class="fitem" style="background-image:url('ss-img.jpg');"></div>
+        <div class="fitem" style="background-image:url('f-img.jpg');"></div>
+        <div class="fitem" style="background-image:url('p-img.jpg');"></div>
+        <div class="fitem" style="background-image:url('bb-img.webp');"></div>
+    </div>
+    </div>
+    <!-- Pagination -->
+    <div class="pagination">
+        <button onclick="loadNextPage()">Next Page</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:60px;
+    width: 100px;
+}
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height:60px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.menu-bar{
+    color:aliceblue;
+    text-align: center;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    padding:10px;
+    margin:10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.active, .menu-bar ul li:hover{
+    background : rgb(124, 122, 125);
+    border-radius: 2px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(75, 72, 78);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display:block ;
+    margin:8x
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width:150px;
+    padding:8px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:blanchedalmond;
+}
+.main-btn{
+    background-color: rgb(94, 94, 94);
+    color:white;
+    font-weight: 550;
+    font-style:oblique;
+    border: 2px solid rgb(141, 141, 141);
+    width:67px;
+    height:35px;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+}
+.hero-section{
+    background-image: url("ai2-img.avif");
+    background-size: cover;
+    height: 850px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.label{
+    background-color:#fff;
+    padding-left: 37%;
+    height: 380px;
+    padding-top: 4%;
+}
+.container1{
+    background-color:#454548;
+    width:25%;
+    height: 70%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    font-style: italic;
+    color:rgb(253, 253, 253);
+    align-items:center;
+    line-height: 1.7;
+    justify-content: center;
+    padding: 50px 40px 20px 100px;
+    border-top-right-radius: 45px ;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 45px ;
+    border-bottom-left-radius: 45px;
+    border-color: rgb(241, 62, 62);
+    border-style: double;
+}
+.btn-container{
+   align-items: center;
+   margin-top: 19px;
+   height: 150px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-style: normal;
+    font-size: 2rem;
+}
+.suppliers-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(222, 227, 227);
+    margin-bottom: 10px;
+}
+.box{
+    margin-top: 30px;
+    font-family:Courier;
+    height:350px;
+    width: 21%;
+    background-color: white;
+    padding: 10px 0px 15px ;
+    margin-bottom: 15px;
+}
+
+.box-img{
+    height:250px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 0.8rem;
+}
+.fcontainer{
+    margin-top: 20px;
+    display: flex;
+    border:2px solid white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fitem{
+    background-color:rgb(222, 227, 227) ;
+    border:2px solid white;
+    padding:50px;
+    margin:10px;
+    width:25%;
+    height:150px;
+}
+.f-content{
+        margin-left: 10px;
+    margin-right: 0.5rem;
+}
+.f-content h2{
+    font-size: 1rem;
+}

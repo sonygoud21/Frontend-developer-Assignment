@@ -1,0 +1,67 @@
+{
+    "category": [
+        {
+           "name" : "AI Virtual Avatar",
+            "products": "400"
+        },
+        {
+            "name" : "Metaverse",
+             "products": "300"
+         },
+         {
+            "name" : "AI Virtual Store",
+             "products": "900"
+         },
+         {
+            "name" : "AI Chatbot",
+             "products": "600"
+         },
+         {
+            "name" : "AI Micro Branch",
+             "products": "500"
+         }
+    ] ,
+    "country":  [
+        {
+           "name" : "India"
+        },
+        {
+            "name" : "USA"
+         },
+         {
+            "name" : "UK"
+         },
+         {
+            "name" : "Europe"
+         }
+    ] ,
+    "state": 
+    [
+        {
+           "name" : "Karnataka"
+        },
+        {
+            "name" : "Telangana"
+         },
+         {
+            "name" : "Tamilnadu"
+         },
+         {
+            "name" : "Andhra Pradesh"
+         },
+         {
+            "name" : "Delhi"
+         },
+         {
+            "name" : "Maharastra"
+         }
+    ] ,
+    "district": [
+        {
+           "name" : "Mysore"
+        },
+        {
+            "name" : "RangaRedduy"
+         }
+    ] 
+}
